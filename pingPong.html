@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Score Keeper</title>
+    <link rel="stylesheet" href="pingPong.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="mainDiv">
+        <img src="pingPong/Nixon_Ping_Pong_canonical.jpg" alt="">
+        <h4>Ping Pong Score Keeper</h4>
+        <hr>
+        <h3>Playing to: </h3>
+        <input type="number" min="1" max="21" value="21">
+        <h1><span id="num1">0</span> / <span id="num2">0</span></h1>
+        <!-- <p>Use the buttons to keep score</p> -->
+
+        <br>
+        <div id="buttonsDiv">
+            <button id="player1">+1 Player One </button>
+            <button id="player2">+1 Player Two </button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="pingPong.js"></script>
+</body>
+
+</html>
